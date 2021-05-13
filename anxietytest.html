@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anxiety Test</title>
+    <link rel="shortcut icon" href="./img/icons8-doctor-male-64.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="test.css" />
+    <script src= "questions.js"></script>
+</head>
+<body>
+  <div class="holder">
+    <div style="
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 9999;
+">
+    <!-- Backdrop -->
+    <div class="questionSection">
+      <!--test section -->
+        <h3>Do you have Depression?</h3>
+        <p>Take this questionnaire to find out!</p>
+        
+        <form id="quiz">
+          <!-- Question 1 -->
+          <h4>Do you worry about things, such as work or school, more days than not?</h4>
+          <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+          <!-- The value is which answer the choice corresponds to. -->
+          <label><input type="radio" name="q1" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q1" value="c2">
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q1" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q1" value="c4">
+           Always
+          </label><br />
+      
+          <!-- Question 2 -->
+          <h4>Do you find it difficult to stop thoughts related to worrying?</h4>
+          <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+          <label><input type="radio" name="q2" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q2" value="c2">
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q2" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q2" value="c4">
+           Always
+          </label><br />
+      
+          
+          <!-- Question 3 -->
+          <h4>Do you often feel restless or on edge even when nothing is happening to cause these feelings?</h4>
+          <!-- Choices for the third question -->
+          <label><input type="radio" name="q3" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q3" value="c2"> 
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q3" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q3" value="c4">
+           Always
+          </label><br />
+      
+          
+          <!-- Question 4 -->
+          <h4>Is it hard for you to concentrate on specific tasks or do you often notice your mind just "going blank"?</h4>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q4" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q4" value="c2">
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q4" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q4" value="c4">
+           Always
+          </label><br />
+
+
+          <!--Question 5-->
+          <h4> Do you often feel irritable or tense even when nothing is going on which would justify this feeling?</h4>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q5" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q5" value="c2">
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q5" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q5" value="c4">
+           Always
+          </label><br />
+
+
+          <!--Question 6-->
+          <h4>Is it difficult for you to fall asleep due to too many thoughts in your head?</h4>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q6" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q6" value="c2">
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q6" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q6" value="c4">
+           Always
+          </label><br />
+
+
+          <!--Question 7-->
+          <h4> Do you notice your muscles getting tense frequently or feel tension in your lower back, neck, or eyes?</h4>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q7" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q7" value="c2">
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q7" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q7" value="c4">
+           Always
+          </label><br />
+
+
+          <!--Question 8-->
+          <h4>Do you find it difficult to sit still without having to fiddle with something, doodle, or make other repetitive movements?</h4>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q8" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q8" value="c2">
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q8" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q8" value="c4">
+           Always
+          </label><br />
+
+
+          <!--Question 9-->
+          <h4>Have you noticed periods during the day when you have symptoms such as heart palpatations, sweaty plans, or shallow breathing?</h4>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q9" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q9" value="c2">
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q9" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q9" value="c4">
+           Always
+          </label><br />
+
+
+          <!--Question 10-->
+          <h4>  Do friends or family members tell you that you are too high strung, worry too much about little things, or need to "chill"?</h4>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q10" value="c1">
+            Never
+          </label><br />
+          <label><input type="radio" name="q10" value="c2">
+            Sometimes
+          </label><br />
+          <label><input type="radio" name="q10" value="c3">
+           Often
+          </label><br />
+          <label><input type="radio" name="q10" value="c4">
+           Always
+          </label><br />
+
+          
+          <!--FINISHED QUESTIONS SECTION-->
+          <div class="btn-position">
+          <button type="submit" id="submit" onclick="tabulateAnswers()" onclick="showAnswer()">SUBMIT</button>
+        <button type="reset" id="reset" onclick="resetAnswer()">RESET</button>
+        <button><a href="index.html">HOME</a></button>
+      </div>
+        </form>
+        
+        
+    
+     
+    </div>
+        
+
+    <!-- Sidebar -->
+   
+    </div>
+
+
+    <!--answers section here-->
+    <div class="answer">
+      <div id="answer">Your result will show up here! 
+      </div>
+    </div>
+   
+  </div>
+
+
+     <!-- <footer>deens assosiation of helping hands &copy</footer>-->
+    
+  <script src="main.js"></script>
+  <script src= "test.js"></script>
+  <script src= "anxiety.js"></script>
+  </body>
+  </html>
